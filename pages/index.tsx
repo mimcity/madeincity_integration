@@ -1,6 +1,7 @@
 import ExperiencesSection from "@/components/ExperiencesSection";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import PartnersSection from "@/components/PartnersSection";
 import SliderSection from "@/components/SliderSection";
 import { Inter } from "next/font/google";
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <SliderSection />
       <ExperiencesSection />
+      <PartnersSection />
     </main>
   );
 }
