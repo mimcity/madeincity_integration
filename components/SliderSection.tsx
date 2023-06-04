@@ -1,6 +1,6 @@
 import React from "react";
 import { Description, DescriptionLink, Title } from "./UI/SectionElements";
-import SliderCard from "./UI/SliderCard";
+import CollectionCard from "./UI/CollectionCard";
 
 const SliderSection = () => {
   return (
@@ -14,10 +14,10 @@ const SliderSection = () => {
         <DescriptionLink>Voir toutes nos collections</DescriptionLink>
       </div>
       <div className="md:pl-16 pl-4 mt-5 flex gap-6 overflow-x-auto">
-        <SliderCard />
-        <SliderCard />
-        <SliderCard />
-        <SliderCard />
+        <CollectionCard />
+        <CollectionCard />
+        <CollectionCard />
+        <CollectionCard />
       </div>
     </div>
   );

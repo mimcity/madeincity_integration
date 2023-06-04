@@ -1,6 +1,6 @@
 import React from "react";
 
-const SliderCard = () => {
+const CollectionCard = () => {
   return (
     <article className="aspect-video max-w-[320px] md:max-w-[480px] md:h-[288px] md:max-h-full h-[260px] w-full bg-blue-300 flex rounded-md">
       <div className="pt-12 pb-4 px-4 flex">
@@ -22,4 +22,4 @@ const SliderCard = () => {
   );
 };
 
-export default SliderCard;
+export default CollectionCard;
