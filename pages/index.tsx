@@ -1,5 +1,6 @@
 import ExperiencesSection from "@/components/ExperiencesSection";
 import Hero from "@/components/Hero";
+import InspirationSection from "@/components/InspirationSection";
 import Navbar from "@/components/Navbar";
 import PartnersSection from "@/components/PartnersSection";
 import SliderSection from "@/components/SliderSection";
@@ -15,6 +16,7 @@ export default function Home() {
       <SliderSection />
       <ExperiencesSection />
       <PartnersSection />
+      <InspirationSection />
     </main>
   );
 }
