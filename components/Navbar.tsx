@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Menu from "../assets/Menu.svg";
-import Logo from "../assets/Logo+select.png";
+import Logo from "../assets/Logo.png";
 import SearchIcon from "../assets/SearchIcon.svg";
 import UserIcon from "../assets/UserIcon.svg";
 
@@ -27,7 +27,7 @@ const NavigationItems = [
 
 const Navbar = () => {
   return (
-    <nav className="py-6">
+    <nav className="py-6 fixed top-0 w-full z-50">
       <div className="max-w-7xl mx-auto lg:px-8 sm:px-6 px-4">
         <div className="flex items-center justify-between">
           <div>
