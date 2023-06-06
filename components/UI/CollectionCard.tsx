@@ -7,7 +7,7 @@ const CollectionCard = () => {
         <div className="flex flex-col justify-between">
           <div>
             <span>COLLECTION</span>
-            <h2 className="text-3xl font-semibold leading-[30px] tracking-[-2%]">
+            <h2 className="text-3xl font-semibold leading-[30px] -tracking-wide">
               Le désert d’Agafay, le trésor caché
             </h2>
           </div>

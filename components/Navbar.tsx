@@ -32,6 +32,7 @@ const NavigationItems = [
 const Navbar = () => {
   const [bgColor, setBgColor] = useState("bg-transparent");
   const [textColor, setTextColor] = useState("text-white");
+  const [burgerColor, setBurgerColor] = useState("text-white");
   const [logo, setLogo] = useState(Logo);
   const navbarRef = useRef<HTMLDivElement>(null);
 
@@ -53,7 +54,7 @@ const Navbar = () => {
   return (
     <nav
       className={classNames(
-        "py-6 fixed top-0 w-full z-[100] transition-all transform duration-300 ease-in-out",
+        "md:py-6 pt-6 pb-2.5 fixed top-0 w-full z-[100] transition-all transform duration-300 ease-in-out",
         bgColor
       )}
       ref={navbarRef}
@@ -90,7 +91,7 @@ const Navbar = () => {
             </div>
             <div className="md:hidden block">
               <Bars3BottomLeftIcon
-                className={classNames("w-5 h-5", textColor)}
+                className={classNames("w-5 h-5 text-black")}
               />
             </div>
           </div>

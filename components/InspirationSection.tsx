@@ -8,7 +8,7 @@ const InspirationSection = () => {
           <span className="uppercase text-sm text-neutral-700">
             Inspiration
           </span>
-          <h1 className="text-3xl font-semibold leading-[30px] tracking-[-2%] text-neutral-700 mt-2">
+          <h1 className="text-3xl font-semibold leading-[30px] -tracking-wide text-neutral-700 mt-2">
             Top 5 des nouvelles adresses à découvrir à Marrakech
           </h1>
           <p className="text-neutral-700 text-sm mt-4">

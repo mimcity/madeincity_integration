@@ -7,7 +7,7 @@ interface SectionElementProps {
 
 export const Title = ({ children }: SectionElementProps) => {
   return (
-    <h1 className="md:text-3xl text-2xl font-semibold text-neutral-700 md:leading-[30px] tracking-[-2%]">
+    <h1 className="md:text-3xl text-2xl font-semibold text-neutral-700 md:leading-[30px] -tracking-wide">
       {children}
     </h1>
   );
