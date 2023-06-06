@@ -15,7 +15,7 @@ const Hero = () => {
           className="sm:block hidden object-cover"
         />
         <div className="z-50 relative flex-1 flex flex-col justify-center">
-          <div className="lg:px-15 sm:px-6 px-4 flex flex-col justify-between flex-1 sm:pb-9">
+          <div className="lg:px-15 md:px-8 px-4 flex flex-col justify-between flex-1 sm:pb-9">
             <div></div>
             <div>
               <h1 className="text-6xl leading-[60px] -tracking-wide font-semibold max-w-[623px] sm:block hidden">
@@ -46,8 +46,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="w-3/5 h-full absolute inset-0 z-40 bg-gradient-to-r from-black/40 to-transparent md:block hidden" />
-      <div className="bg-black opacity-20 w-full h-full absolute inset-0 z-40 md:block hidden" />
+      <div className="w-3/5 h-full absolute inset-0 z-40 bg-gradient-to-r from-black/40 to-transparent sm:block hidden" />
+      <div className="bg-black opacity-20 w-full h-full absolute inset-0 z-40 sm:block hidden" />
     </Layout>
   );
 };

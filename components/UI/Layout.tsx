@@ -14,7 +14,7 @@ const Layout = ({
     <div
       className={classNames(
         "mx-auto",
-        fullWidth ? "w-full" : "max-w-7xl lg:px-8 sm:px-6 px-4",
+        fullWidth ? "w-full" : "max-w-screen-2xl mx-auto lg:px-15 md:px-8 px-4",
         additional
       )}
     >

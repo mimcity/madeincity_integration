@@ -1,9 +1,10 @@
 import React from "react";
 import { Description, DescriptionLink, Title } from "./UI/SectionElements";
+import Layout from "./UI/Layout";
 
 const ExperiencesSection = () => {
   return (
-    <div className="mt-[115px] mb-[150px]">
+    <Layout additional="py-9">
       <Title>Nos collections, selectionnées pour vous</Title>
       <div className="flex items-center justify-between">
         <Description>
@@ -12,7 +13,7 @@ const ExperiencesSection = () => {
         </Description>
         <DescriptionLink>Voir toutes nos collections</DescriptionLink>
       </div>
-    </div>
+    </Layout>
   );
 };
 
