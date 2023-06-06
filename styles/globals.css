@@ -26,6 +26,6 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.negativeTracking {
-  letter-spacing: -2;
+.sliderScrollbar::-webkit-scrollbar {
+  display: none;
 }

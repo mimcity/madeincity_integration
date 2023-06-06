@@ -16,7 +16,7 @@ const SliderSection = () => {
           <DescriptionLink>Voir toutes nos collections</DescriptionLink>
         </div>
       </div>
-      <div className="mt-5 flex md:gap-6 gap-4 overflow-x-auto">
+      <div className="mt-5 flex md:gap-6 gap-4 overflow-x-auto sliderScrollbar">
         <CollectionCard />
         <CollectionCard />
         <CollectionCard />

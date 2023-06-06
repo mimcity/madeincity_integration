@@ -46,8 +46,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="w-3/5 h-full absolute inset-0 z-40 bg-gradient-to-r from-black/40 to-transparent" />
-      <div className="bg-black opacity-20 w-full h-full absolute inset-0 z-40" />
+      <div className="w-3/5 h-full absolute inset-0 z-40 bg-gradient-to-r from-black/40 to-transparent md:block hidden" />
+      <div className="bg-black opacity-20 w-full h-full absolute inset-0 z-40 md:block hidden" />
     </Layout>
   );
 };
