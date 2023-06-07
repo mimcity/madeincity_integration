@@ -1,6 +1,7 @@
 import ExperiencesSection from "@/components/ExperiencesSection";
 import Hero from "@/components/Hero";
 import InspirationSection from "@/components/InspirationSection";
+import MobileSection from "@/components/MobileSection";
 import Navbar from "@/components/Navbar";
 import PartnersSection from "@/components/PartnersSection";
 import SliderSection from "@/components/SliderSection";
@@ -80,6 +81,7 @@ export default function Home() {
       <Hero />
       <SliderSection />
       <ExperiencesSection />
+      <MobileSection />
       <PartnersSection />
       <InspirationSection />
     </main>

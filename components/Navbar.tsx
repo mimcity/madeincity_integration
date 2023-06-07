@@ -9,6 +9,7 @@ import {
   MagnifyingGlassIcon,
   UserCircleIcon,
 } from "@heroicons/react/24/solid";
+import Layout from "./UI/Layout";
 
 const NavigationItems = [
   {
@@ -59,7 +60,7 @@ const Navbar = () => {
       )}
       ref={navbarRef}
     >
-      <div className="max-w-screen-2xl mx-auto lg:px-15 md:px-8 px-4">
+      <Layout>
         <div className="flex items-center justify-between">
           <div className="sm:block hidden">
             <Image src={logo} width={203} height={30} alt="Logo" />
@@ -96,7 +97,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </div>
+      </Layout>
     </nav>
   );
 };

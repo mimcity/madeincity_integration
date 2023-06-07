@@ -14,7 +14,7 @@ export const Title = ({ children }: SectionElementProps) => {
 };
 
 export const Description = ({ children }: SectionElementProps) => {
-  return <p className="text-neutral-700">{children}</p>;
+  return <p className="text-neutral-700 md:pr-4">{children}</p>;
 };
 
 export const DescriptionLink = ({
@@ -24,7 +24,7 @@ export const DescriptionLink = ({
   return (
     <Link
       href={link}
-      className="text-neutral-700 font-semibold underline md:block hidden"
+      className="text-neutral-700 font-semibold underline md:block hidden flex-shrink-0"
     >
       {children}
     </Link>
