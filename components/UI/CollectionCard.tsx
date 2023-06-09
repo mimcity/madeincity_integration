@@ -28,7 +28,7 @@ const CollectionCard = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gradient-to-l from-black/20 to-transparent z-10 absolute w-full h-full rounded-md" />
+      <div className="bg-gradient-to-r from-black/20 to-transparent z-10 absolute w-full h-full rounded-md" />
     </article>
   );
 };
