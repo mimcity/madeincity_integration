@@ -8,7 +8,7 @@ const Content = () => {
   return (
     <main className="max-w-[1200px] mx-auto text-black w-full">
       <div className="pt-20 pb-[200px] w-full">
-        <p className="text-xl text-neutral-700 leading-[30px] max-w-3xl mx-auto">
+        <p className="text-xl text-neutral-700 leading-[30px] max-w-3xl mx-auto md:px-0 px-4">
           Après Rabat, c’est au tour de Marrakech de devenir la capitale
           culturelle du monde islamique ! Le ministre de la Jeunesse, de la
           Culture et de la Communication, Mohamed Mehdi Bensaïd, a annoncé cette
@@ -17,10 +17,10 @@ const Content = () => {
           événement est porté par l’Organisation du monde islamique pour
           l’éducation, les sciences et la culture (ISESCO).
         </p>
-        <h2 className="mt-12 text-3xl leading-[30px] font-semibold text-neutral-700 max-w-3xl mx-auto">
+        <h2 className="mt-12 text-3xl leading-[30px] font-semibold text-neutral-700 max-w-3xl mx-auto md:px-0 px-4">
           Patrimoine mondial de l’UNESCO
         </h2>
-        <p className="mt-6 text-xl text-neutral-700 leading-[30px] max-w-3xl mx-auto">
+        <p className="mt-6 text-xl text-neutral-700 leading-[30px] max-w-3xl mx-auto md:px-0 px-4">
           Après Rabat, c’est au tour de Marrakech de devenir la capitale
           culturelle du monde islamique ! Le ministre de la Jeunesse, de la
           Culture et de la Communication, Mohamed Mehdi Bensaïd, a annoncé cette
@@ -33,19 +33,19 @@ const Content = () => {
           <div className="relative aspect-[12/6.3] w-full mt-[72px]">
             <Image src={Article} fill alt="Content" />
           </div>
-          <div className="mt-6 w-full text-center">
+          <div className="mt-6 w-full text-center md:px-0 px-4">
             <span className="text-sm text-neutral-700">
               Crédit photos : Malick Welli et Nour Eddine El Ghoumari
             </span>
           </div>
         </div>
-        <h2 className="mt-[72px] text-3xl leading-[30px] font-semibold text-neutral-700 max-w-3xl mx-auto">
+        <h2 className="mt-[72px] text-3xl leading-[30px] font-semibold text-neutral-700 max-w-3xl mx-auto md:px-0 px-4">
           Des expos “by night”
         </h2>
-        <h3 className="mt-12 text-neutral-700 text-2xl leading-[30px] -tracking-wide max-w-3xl mx-auto">
+        <h3 className="mt-12 text-neutral-700 text-2xl leading-[30px] -tracking-wide max-w-3xl mx-auto md:px-0 px-4">
           Au programme
         </h3>
-        <p className="mt-4 text-xl text-neutral-700 leading-[30px] max-w-3xl mx-auto">
+        <p className="mt-4 text-xl text-neutral-700 leading-[30px] max-w-3xl mx-auto md:px-0 px-4">
           20 espaces d’art provenant de différents pays dont la France, la Côte
           d’Ivoire, le Sénégal, l’Afrique du Sud ou encore l'Allemagne seront
           représentés et exposeront les œuvres de plus d’une soixantaine
@@ -53,10 +53,10 @@ const Content = () => {
           amateurs d’art. Le Royaume sera représenté par cinq galeries d’art,
           dont 3 établissements se trouvant à Casablanca.
         </p>
-        <h3 className="mt-12 text-neutral-700 text-2xl leading-[30px] -tracking-wide max-w-3xl mx-auto">
+        <h3 className="mt-12 text-neutral-700 text-2xl leading-[30px] -tracking-wide max-w-3xl mx-auto md:px-0 px-4">
           Le Centre culturel
         </h3>
-        <p className="mt-4 text-xl text-neutral-700 leading-[30px] max-w-3xl mx-auto">
+        <p className="mt-4 text-xl text-neutral-700 leading-[30px] max-w-3xl mx-auto md:px-0 px-4">
           Situé au cœur de M Avenue, sera partenaire actif de la Foire. Tous les
           jours, la salle de théâtre diffusera le film retraçant les 10 ans de
           "1-54", à Paris, Londres, New York et Marrakech. En parallèle, il
