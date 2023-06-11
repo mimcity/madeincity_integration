@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Article from "../../assets/articlecontent.png";
 import TopElementCard from "../UI/TopElementCard";
+import Badge from "../UI/Badge";
 
 const Content = () => {
   return (
@@ -41,7 +42,7 @@ const Content = () => {
         <h2 className="mt-[72px] text-3xl leading-[30px] font-semibold text-neutral-700 max-w-3xl mx-auto">
           Des expos “by night”
         </h2>
-        <h3 className="mt-12 text-neutral-700 text-2xl leading-[30px] -tracking-wide">
+        <h3 className="mt-12 text-neutral-700 text-2xl leading-[30px] -tracking-wide max-w-3xl mx-auto">
           Au programme
         </h3>
         <p className="mt-4 text-xl text-neutral-700 leading-[30px] max-w-3xl mx-auto">
@@ -52,7 +53,7 @@ const Content = () => {
           amateurs d’art. Le Royaume sera représenté par cinq galeries d’art,
           dont 3 établissements se trouvant à Casablanca.
         </p>
-        <h3 className="mt-12 text-neutral-700 text-2xl leading-[30px] -tracking-wide">
+        <h3 className="mt-12 text-neutral-700 text-2xl leading-[30px] -tracking-wide max-w-3xl mx-auto">
           Le Centre culturel
         </h3>
         <p className="mt-4 text-xl text-neutral-700 leading-[30px] max-w-3xl mx-auto">
@@ -65,7 +66,21 @@ const Content = () => {
           night” dont le solo show de Yasmina Alaoui au comptoir des Mines et
           l’ouverture de l’exposition “La saveur des couleurs” à la Galerie 38.
         </p>
-        <TopElementCard />
+        <div className="max-w-3xl mx-auto py-[72px]">
+          <TopElementCard />
+          <TopElementCard />
+        </div>
+        <div className="flex items-center justify-between max-w-3xl mx-auto">
+          <div>
+            <p className="text-neutral-700 font-normal">26 Novembre 2023</p>
+            <span className="text-neutral-500 text-xs">Par Anaïs Robin</span>
+          </div>
+          <div className="flex items-center gap-3">
+            <Badge />
+            <Badge />
+            <Badge />
+          </div>
+        </div>
       </div>
     </main>
   );
