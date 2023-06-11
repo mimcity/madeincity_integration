@@ -1,7 +1,7 @@
 import React from "react";
-import { Description, DescriptionLink, Title } from "./UI/SectionElements";
-import Layout from "./UI/Layout";
-import ExperienceCard from "./UI/ExperienceCard";
+import { Description, DescriptionLink, Title } from "../UI/SectionElements";
+import Layout from "../UI/Layout";
+import ExperienceCard from "../UI/ExperienceCard";
 
 const ExperiencesSection = () => {
   return (

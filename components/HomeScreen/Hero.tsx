@@ -1,8 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import HeroImage from "../assets/HeroImage.png";
-import Layout from "./UI/Layout";
+import HeroImage from "../../assets/HeroImage.png";
+
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
+import Layout from "../UI/Layout";
 
 const Hero = () => {
   return (
