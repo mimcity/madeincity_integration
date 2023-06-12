@@ -39,7 +39,7 @@ const ExperienceCard = () => {
           <div className="px-2 bg-neutral-700 rounded-sm max-w-max">
             <span className="text-sm font-semibold text-white">Club</span>
           </div>
-          <p className="md:text-sm text-xs text-neutral-700">
+          <p className="md:text-sm text-xs text-neutral-700 truncate">
             Cocktail de bienvenue offert
           </p>
         </div>
