@@ -1,7 +1,7 @@
 import React from "react";
-import { Description, DescriptionLink, Title } from "./UI/SectionElements";
-import Layout from "./UI/Layout";
-import PartnerCard from "./UI/PartnerCard";
+import Layout from "../UI/Layout";
+import { Description, Title } from "../UI/SectionElements";
+import PartnerCard from "../UI/PartnerCard";
 
 const PartnersSection = () => {
   return (

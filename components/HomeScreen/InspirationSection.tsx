@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Inspiration from "../assets/inspiration.png";
-import Layout from "./UI/Layout";
+import Layout from "../UI/Layout";
 
 const InspirationSection = () => {
   return (

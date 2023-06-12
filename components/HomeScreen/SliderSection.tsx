@@ -1,7 +1,7 @@
 import React from "react";
-import { Description, DescriptionLink, Title } from "./UI/SectionElements";
-import CollectionCard from "./UI/CollectionCard";
-import Layout from "./UI/Layout";
+import Layout from "../UI/Layout";
+import { Description, DescriptionLink, Title } from "../UI/SectionElements";
+import CollectionCard from "../UI/CollectionCard";
 
 const SliderSection = () => {
   return (
