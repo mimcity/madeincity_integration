@@ -27,7 +27,7 @@ const ExperienceCard = () => {
           </p>
         </div>
 
-        <h2 className="lg:text-xl md:text-lg text-base font-semibold text-neutral-700 -tracking-wide">
+        <h2 className="lg:text-xl md:text-lg text-base font-semibold text-neutral-700 -tracking-wide line-clamp-2">
           PicNic Daypass
         </h2>
 
