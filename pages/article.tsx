@@ -8,7 +8,6 @@ const article = () => {
   return (
     <>
       <Hero />
-      <Banner />
       <Content />
       <ReadingList />
     </>
