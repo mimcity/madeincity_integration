@@ -22,7 +22,7 @@ const ExperienceCard = () => {
           <span className="text-neutral-700 text-opacity-75 md:block hidden">
             &#183;
           </span>
-          <p className="text-neutral-700 text-opacity-75 md:text-base text-xs">
+          <p className="text-neutral-700 text-opacity-75 md:text-base text-xs truncate">
             Mandarin Oriental Marrakech
           </p>
         </div>
