@@ -12,12 +12,15 @@ const Hero = () => {
   useEffect(() => {
     setViewportWidth(window.innerWidth); // Initially set viewportWidth
 
-    function handleResize() {
+    const handleResize = () => {
       setBannerHeight(bannerRef.current?.offsetHeight || 0);
       setViewportWidth(window.innerWidth);
-    }
+    };
 
     window.addEventListener("resize", handleResize);
+
+    // Trigger resize event manually to force recalculation
+    handleResize();
 
     // Clean up function
     return () => {
