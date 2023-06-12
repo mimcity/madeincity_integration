@@ -7,7 +7,7 @@ const ExperienceCard = () => {
   return (
     <div>
       <div className="relative">
-        <Image src={Placeholder} alt="Experience" />
+        <Image src={Placeholder} alt="Experience" className="object-cover" />
       </div>
       <div className="space-y-0.5">
         <div className="flex md:flex-row flex-col md:items-center space-x-0.5 md:mt-0 mt-2">
