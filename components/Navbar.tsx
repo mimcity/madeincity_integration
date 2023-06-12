@@ -77,8 +77,8 @@ const Navbar = () => {
           <div className="sm:hidden block">
             <Image
               src={router.pathname.startsWith("/article") ? logo : LogoBlack}
-              width={203}
-              height={30}
+              width={180}
+              height={26}
               alt="Logo"
             />
           </div>
