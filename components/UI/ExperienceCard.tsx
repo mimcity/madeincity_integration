@@ -37,7 +37,7 @@ const ExperienceCard = () => {
 
         <div className="flex md:items-center gap-1 md:flex-row flex-col-reverse">
           <div className="px-2 bg-neutral-700 rounded-sm max-w-max">
-            <span className="text-sm font-semibold">Club</span>
+            <span className="text-sm font-semibold text-white">Club</span>
           </div>
           <p className="md:text-sm text-xs text-neutral-700">
             Cocktail de bienvenue offert

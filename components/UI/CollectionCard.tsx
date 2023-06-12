@@ -16,8 +16,8 @@ const CollectionCard = () => {
       <div className="pt-12 pb-4 px-4 flex z-20">
         <div className="flex flex-col justify-between">
           <div>
-            <span className="uppercase text-xs">collection</span>
-            <h2 className="text-3xl font-semibold leading-[30px] -tracking-wide">
+            <span className="uppercase text-xs text-white">collection</span>
+            <h2 className="text-3xl font-semibold leading-[30px] -tracking-wide text-white">
               Le désert d’Agafay, le trésor caché
             </h2>
           </div>

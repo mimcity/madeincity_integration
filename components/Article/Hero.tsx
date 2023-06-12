@@ -34,7 +34,7 @@ const Hero = () => {
         <div
           style={
             viewportWidth <= 768
-              ? { height: `calc(100vh - ${bannerHeight}px)` }
+              ? { height: `calc(100dvh - ${bannerHeight}px)` }
               : {}
           }
           className="md:h-screen relative"
