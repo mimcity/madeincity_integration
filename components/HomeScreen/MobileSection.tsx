@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Mobile from "../assets/mobile.png";
+import Mobile from "../../assets/mobile.png";
 
 const MobileSection = () => {
   return (
