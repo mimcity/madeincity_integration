@@ -7,19 +7,34 @@ import Banner from "./Banner";
 const Hero = () => {
   const bannerRef = useRef<HTMLDivElement | null>(null);
   const [bannerHeight, setBannerHeight] = useState(0);
+  const [viewportWidth, setViewportWidth] = useState(0);
 
   useEffect(() => {
-    if (bannerRef.current) {
-      setBannerHeight(bannerRef.current.offsetHeight);
+    setViewportWidth(window.innerWidth); // Initially set viewportWidth
+
+    function handleResize() {
+      setBannerHeight(bannerRef.current?.offsetHeight || 0);
+      setViewportWidth(window.innerWidth);
     }
+
+    window.addEventListener("resize", handleResize);
+
+    // Clean up function
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
-  if (bannerHeight === 0) return null;
   return (
     <div className="">
       <main className="w-full mx-auto relative">
         <div
-          className={`lg:h-screen relative h-[calc(100vh-${bannerHeight}px)]`}
+          style={
+            viewportWidth <= 768
+              ? { height: `calc(100vh - ${bannerHeight}px)` }
+              : {}
+          }
+          className="md:h-screen relative"
         >
           <Image src={Article} alt="Article" fill className="object-cover" />
           <div className="flex flex-col z-[100] relative justify-end h-full">

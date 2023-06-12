@@ -7,14 +7,14 @@ const ExperiencesSection = () => {
   return (
     <Layout additional="lg:py-9 md:pt-0 md:pb-16 py-10">
       <Title>Expériences les plus populaires</Title>
-      <div className="flex items-center justify-between py-2">
+      <div className="flex items-center justify-between md:py-4 py-2">
         <Description>
           Lorem ipsum dolor sit amet consectetur. Nulla turpis nam in neque
           congue platea vel.
         </Description>
         <DescriptionLink>Voir toutes nos collections</DescriptionLink>
       </div>
-      <div className="grid md:grid-cols-4 grid-cols-2 md:gap-6 gap-4">
+      <div className="grid md:grid-cols-4 grid-cols-2 md:gap-6 gap-4 mt-2">
         <ExperienceCard />
         <ExperienceCard />
         <ExperienceCard />

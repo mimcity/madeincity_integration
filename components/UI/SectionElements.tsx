@@ -1,8 +1,10 @@
+import classNames from "classnames";
 import Link from "next/link";
 
 interface SectionElementProps {
   children: React.ReactNode;
   link?: string;
+  additional?: string;
 }
 
 export const Title = ({ children }: SectionElementProps) => {
@@ -13,8 +15,12 @@ export const Title = ({ children }: SectionElementProps) => {
   );
 };
 
-export const Description = ({ children }: SectionElementProps) => {
-  return <p className="text-neutral-700 md:pr-4">{children}</p>;
+export const Description = ({ children, additional }: SectionElementProps) => {
+  return (
+    <p className={classNames("text-neutral-700 md:pr-4", additional)}>
+      {children}
+    </p>
+  );
 };
 
 export const DescriptionLink = ({

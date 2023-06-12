@@ -7,7 +7,7 @@ const InspirationSection = () => {
   return (
     <Layout fullWidth additional="py-56 md:block hidden">
       <div className="w-full flex relative h-[584px]">
-        <Image src={Inspiration} alt="Image" fill />
+        <Image src={Inspiration} alt="Image" fill className="object-cover" />
         <div className="flex items-center pl-24 flex-1 z-40">
           <div className="pt-10 pb-7 pl-[30px] pr-[22px] max-w-[369px] bg-white rounded-md">
             <span className="uppercase text-sm text-neutral-700">

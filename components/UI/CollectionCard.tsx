@@ -8,7 +8,7 @@ const CollectionCard = () => {
       <div>
         <Image
           src={SliderImage}
-          className="rounded-md overflow-hidden"
+          className="rounded-md overflow-hidden object-cover"
           fill
           alt="Card Image"
         />
