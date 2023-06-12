@@ -17,4 +17,5 @@ const Banner = React.forwardRef<HTMLDivElement, BannerProps>((props, ref) => {
   );
 });
 
+Banner.displayName = "Banner";
 export default Banner;
