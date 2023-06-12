@@ -45,7 +45,7 @@ const Hero = () => {
               <p className="text-sm text-white text-center w-full uppercase md:block hidden">
                 Culture
               </p>
-              <h1 className="mt-4 lg:text-6xl md:text-4xl text-3xl font-bold lg:leading-[60px] -tracking-wide text-white">
+              <h1 className="mt-4 lg:text-6xl md:text-4xl text-3xl md:leading-10 leading-[30px] font-bold lg:leading-[60px] -tracking-wide text-white">
                 Marrakech désignée capitale de la culture en 2024
               </h1>
               <div className="lg:mt-6 md:mt-5 mt-4">

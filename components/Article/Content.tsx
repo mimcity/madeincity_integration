@@ -42,7 +42,7 @@ const Content = () => {
         <h2 className="lg:mt-[72px] md:mt-16 mt-14 lg:text-3xl text-2xl leading-[30px] font-semibold text-neutral-700 max-w-3xl mx-auto md:px-0 px-4">
           Des expos “by night”
         </h2>
-        <h3 className="lg:mt-12 md:mt-8 mt-[22px] text-neutral-700 lg:text-2xl text-xl leading-[30px] -tracking-wide max-w-3xl mx-auto md:px-0 px-4">
+        <h3 className="lg:mt-12 md:mt-8 mt-[22px] text-neutral-700 lg:text-2xl text-xl leading-[30px] -tracking-wide max-w-3xl mx-auto md:px-0 px-4 font-semibold">
           Au programme
         </h3>
         <p className="md:mt-4 mt-3 lg:text-xl md:text-lg text-base text-neutral-700 leading-[30px] max-w-3xl mx-auto md:px-0 px-4">
@@ -53,7 +53,7 @@ const Content = () => {
           amateurs d’art. Le Royaume sera représenté par cinq galeries d’art,
           dont 3 établissements se trouvant à Casablanca.
         </p>
-        <h3 className="mt-12 text-neutral-700 lg:text-2xl text-xl leading-[30px] -tracking-wide max-w-3xl mx-auto md:px-0 px-4">
+        <h3 className="mt-12 text-neutral-700 lg:text-2xl text-xl leading-[30px] -tracking-wide max-w-3xl mx-auto md:px-0 px-4 font-semibold">
           Le Centre culturel
         </h3>
         <p className="md:mt-4 mt-3 lg:text-xl md:text-lg text-base text-neutral-700 leading-[30px] max-w-3xl mx-auto md:px-0 px-4">
