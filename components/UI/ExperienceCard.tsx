@@ -10,7 +10,7 @@ const ExperienceCard = () => {
         <Image
           src={Placeholder}
           alt="Experience"
-          className="object-cover max-h-[389px]"
+          className="object-cover max-h-[389px] rounded-md overflow-hidden"
         />
       </div>
       <div className="space-y-[2px]">
