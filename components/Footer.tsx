@@ -10,9 +10,83 @@ import Image from "next/image";
 import Logo from "../assets/Logo.png";
 import Link from "next/link";
 
+const FooterLinks = [
+  {
+    name: "Nos sites",
+    items: [
+      "Made in Marrakech",
+      "Made in Barcelona",
+      " Made in Ibiza",
+      "Made in Dubaï",
+      "Voir tous les sites",
+    ],
+  },
+  {
+    name: "Experiences",
+    items: ["Restaurants", "Bars & Clubs", "Hôtels", "Spas", "Activités"],
+  },
+  {
+    name: "Professionnels",
+    items: ["Accès Pro", "Inscrivez-vous", "FAQ", "Link4", "Link5"],
+  },
+  {
+    name: "A propos",
+    items: [
+      "Qui sommes-nous ?",
+      "L’équipe",
+      "Espace Presse",
+      "Blog",
+      "Travailler avec nous",
+    ],
+  },
+];
+
 const Footer = () => {
   return (
-    <div>
+    <div className="bg-[#f6f6f6]">
+      <Layout>
+        <div className="flex lg:flex-row flex-col-reverse items-center justify-between ld:pt-20 pt-16 lg:pb-12 pb-11 gap-x-10 md:gap-y-24 gap-y-16">
+          <div className="md:flex xl:gap-[72px] lg:gap-6 md:gap-12 gap-y-[60px] gap-x-11 grid grid-cols-2 w-full">
+            {FooterLinks.map((item, index) => {
+              return (
+                <div className="flex flex-col gap-[15px]">
+                  <h1 className="text-neutral-700 font-semibold text-sm">
+                    {item.name}
+                  </h1>
+                  {item.items.map((single) => (
+                    <Link
+                      href="/"
+                      className="text-sm text-neutral-700 hover:underline"
+                    >
+                      {single}
+                    </Link>
+                  ))}
+                </div>
+              );
+            })}
+          </div>
+          <div className="max-w-[398px] xl:mr-[70px] xl:pr-8">
+            <h1 className="text-neutral-700 text-2xl -tracking-wide">
+              Recevez les meilleures offres direct dans votre boite mail
+            </h1>
+            <p className="mt-2 text-neutral-700/75 text-xs">
+              By clicking Subscribe, you have agreed to our{" "}
+              <span className="underline">Terms & Conditions</span>
+              and Policies
+            </p>
+            <div className="mt-4 flex">
+              <input
+                type="text"
+                placeholder="Votre email"
+                className="py-2.5 px-4 text-sm placeholder:text-sm placeholder:text-neutral-400 border border-neutral-300 w-full"
+              />
+              <button className="text-white text-sm bg-black py-2.5 pl-6 pr-4">
+                S’inscrire
+              </button>
+            </div>
+          </div>
+        </div>
+      </Layout>
       <div className="bg-[#2C2C2C] md:pt-10 pt-[53px] pb-10 md:pb-6 md:px-0 px-16">
         <Layout>
           <div className="flex items-center justify-between md:flex-row flex-col">

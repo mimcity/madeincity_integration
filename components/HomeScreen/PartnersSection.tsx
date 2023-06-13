@@ -5,7 +5,7 @@ import PartnerCard from "../UI/PartnerCard";
 
 const PartnersSection = () => {
   return (
-    <Layout additional="lg:py-9 md:py-16 py-8">
+    <Layout additional="lg:py-9 md:py-16 sm:py-8 pb-28 pt-8">
       <Title>Les lieux partenaires</Title>
       <div className="md:py-4 py-2">
         <Description>
