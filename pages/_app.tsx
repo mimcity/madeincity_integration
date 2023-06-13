@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import "@/styles/globals.css";
 import localFont from "@next/font/local";
@@ -75,6 +76,7 @@ export default function App({ Component, pageProps }: AppProps) {
     >
       <Navbar />
       <Component {...pageProps} />
+      <Footer />
     </main>
   );
 }
