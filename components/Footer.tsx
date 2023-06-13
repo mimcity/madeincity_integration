@@ -46,11 +46,11 @@ const Footer = () => {
     <div className="bg-[#f6f6f6]">
       <Layout>
         <div className="flex lg:flex-row flex-col-reverse items-center justify-between ld:pt-20 pt-16 lg:pb-12 pb-11 gap-x-10 md:gap-y-24 gap-y-16">
-          <div className="md:flex lg:gap-[72px] md:gap-12 gap-y-[60px] gap-x-11 grid grid-cols-2 w-full">
+          <div className="md:flex xl:gap-[72px] md:gap-12 gap-y-[60px] gap-x-11 grid grid-cols-2 w-full max-w-[626px]">
             {FooterLinks.map((item, index) => {
               return (
                 <div
-                  className="flex flex-col gap-[15px] w-full sm:items-center"
+                  className="flex flex-col gap-[15px] w-full sm:items-center lg:items-start"
                   key={index}
                 >
                   <h1 className="text-neutral-700 font-semibold text-sm">
