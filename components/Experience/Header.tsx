@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <div className="">
       <div className="flex items-center space-x-0.5 mt-2">
-        <div className="flex items-center">
-          <StarIcon className="w-5 h-5 text-rose-500" />
+        <div className="flex items-center space-x-[5px]">
+          <StarIcon className="w-3 h-3 text-rose-500" />
           <span className="text-sm text-neutral-700">4,7</span>
         </div>
         <span className="text-neutral-700 text-opacity-75 md:block hidden">
@@ -34,7 +34,7 @@ const Header = () => {
           </Link>
         </div>
       </div>
-      <div className="h-[360px] bg-red-200 my-8"></div>
+      <div className="h-[360px] bg-red-200 my-8 md:block hidden"></div>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import React from "react";
 
 const Content = () => {
   return (
-    <div className="flex justify-between gap-x-20 py-12">
+    <div className="flex justify-between gap-x-20 lg:py-12 md:py-8 py-6">
       <div>
         <div className="pb-8 border-b border-neutral-200">
           <p className="text-black">
@@ -27,16 +27,18 @@ const Content = () => {
         <div className="py-8 border-b border-neutral-200">
           <div className="flex flex-col gap-8">
             <div className="flex gap-4">
-              <MoonIcon className="w-10 h-10 text-black" />
+              <MoonIcon className="w-10 h-10 text-black flex-shrink-0" />
               <div>
                 <h1 className="text-xl font-semibold -tracking-wide text-black">
                   Expérience unique
                 </h1>
-                <p className="text-black/75">A faire une fois dans sa vie</p>
+                <p className="text-neutral-700/75">
+                  A faire une fois dans sa vie
+                </p>
               </div>
             </div>
             <div className="flex gap-4">
-              <MoonIcon className="w-10 h-10 text-black" />
+              <MoonIcon className="w-10 h-10 text-black flex-shrink-0" />
               <div>
                 <h1 className="text-xl font-semibold -tracking-wide text-black">
                   Exclusivité Made in City

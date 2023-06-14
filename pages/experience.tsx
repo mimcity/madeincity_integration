@@ -6,7 +6,7 @@ import React from "react";
 const experience = () => {
   return (
     <Layout>
-      <div className="py-40 lg:px-28 md:px-20">
+      <div className="lg:py-40 md:py-32 py-24 lg:px-28 md:px-20">
         <Header />
         <Content />
       </div>
