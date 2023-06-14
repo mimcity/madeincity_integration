@@ -2,6 +2,7 @@ import CardsSection from "@/components/Experience/CardsSection";
 import Carousel from "@/components/Experience/Carousel";
 import Content from "@/components/Experience/Content";
 import Header from "@/components/Experience/Header";
+import StickyDiv from "@/components/Experience/StickyDiv";
 import Layout from "@/components/UI/Layout";
 import React from "react";
 
@@ -16,6 +17,7 @@ const experience = () => {
         </div>
         <CardsSection />
       </Layout>
+      <StickyDiv />
     </>
   );
 };
