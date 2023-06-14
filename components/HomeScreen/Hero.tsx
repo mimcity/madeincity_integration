@@ -17,8 +17,7 @@ const Hero = () => {
         />
         <Layout additional="w-full h-full flex px-0">
           <div className="z-50 relative flex-1 flex flex-col justify-center">
-            <div className="xl:px-0 lg:px-15 md:px-8 px-4 flex flex-col justify-between flex-1 sm:pb-9">
-              <div></div>
+            <div className="xl:px-0 lg:px-15 md:px-8 px-4 flex flex-col justify-between flex-1 sm:pb-9 xl:max-h-[715px]">
               <div>
                 <h1 className="text-6xl leading-[60px] -tracking-wide font-semibold max-w-[623px] sm:block hidden">
                   Découvrez des expériences uniques
