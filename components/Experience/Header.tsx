@@ -1,6 +1,8 @@
 import { ArrowUpTrayIcon, StarIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import React from "react";
+import Image1 from "../../assets/placeholderExperience.jpg";
+import Image from "next/image";
 
 const Header = () => {
   return (
@@ -34,7 +36,35 @@ const Header = () => {
           </Link>
         </div>
       </div>
-      <div className="h-[360px] bg-red-200 my-8 md:block hidden"></div>
+      <div className="my-8 md:block hidden">
+        <div className="flex gap-2">
+          <div>
+            <Image
+              src={Image1}
+              alt="Image"
+              className="lg:h-[360px] h-[300px] object-cover"
+            />
+          </div>
+          <div>
+            <Image
+              src={Image1}
+              alt="Image"
+              className="lg:h-[360px] h-[300px] "
+            />
+          </div>
+          <div>
+            <Image
+              src={Image1}
+              alt="Image"
+              className="lg:h-[360px] h-[300px] "
+            />
+          </div>
+          <div className="flex flex-col gap-2 lg:h-[360px] h-[300px] overflow-hidden">
+            <Image src={Image1} alt="Image" className="h-1/2 object-cover" />
+            <Image src={Image1} alt="Image" className="h-1/2 object-cover" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
