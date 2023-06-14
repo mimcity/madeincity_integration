@@ -59,7 +59,7 @@ const Footer = () => {
                   {item.items.map((single, index) => (
                     <Link
                       href="/"
-                      className="text-sm text-neutral-700 hover:underline"
+                      className="text-sm text-neutral-700 hover:underline flex-shrink-0"
                       key={index}
                     >
                       {single}
