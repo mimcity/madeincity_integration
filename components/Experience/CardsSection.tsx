@@ -5,7 +5,7 @@ import ExperienceCard from "../UI/ExperienceCard";
 
 const CardsSection = () => {
   return (
-    <div className="lg:pt-28 pt-16">
+    <div className="lg:pt-28 pt-16 lg:pb-24 pb-28">
       <Title>A découvrir également</Title>
       <div className="flex items-center justify-between md:py-4 py-2">
         <Description>

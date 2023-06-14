@@ -70,7 +70,7 @@ const Footer = () => {
             })}
           </div>
           <div className="max-w-[398px] xl:mr-[70px] xl:pr-8">
-            <h1 className="text-neutral-700 text-2xl -tracking-wide">
+            <h1 className="text-neutral-700 text-2xl -tracking-wide font-semibold">
               Recevez les meilleures offres direct dans votre boite mail
             </h1>
             <p className="mt-2 text-neutral-700/75 text-xs">
@@ -82,7 +82,7 @@ const Footer = () => {
               <input
                 type="text"
                 placeholder="Votre email"
-                className="py-2.5 px-4 text-sm placeholder:text-sm placeholder:text-neutral-400 border border-neutral-300 w-full"
+                className="py-2.5 px-4 text-sm placeholder:text-sm placeholder:text-neutral-400 border border-neutral-300 w-full rounded-md"
               />
               <button className="text-white text-sm bg-black py-2.5 pl-6 pr-4">
                 S’inscrire

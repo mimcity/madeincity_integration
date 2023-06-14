@@ -13,8 +13,8 @@ const experience = () => {
         <div className="lg:pt-40 lg:pb-24 md:py-32 sm:py-24 py-8 lg:px-28 md:px-20">
           <Header />
           <Content />
-          <CardsSection />
         </div>
+        <CardsSection />
       </Layout>
     </>
   );

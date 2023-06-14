@@ -9,7 +9,7 @@ const Header = () => {
     <div className="">
       <div className="flex items-center space-x-0.5 mt-2">
         <div className="flex items-center space-x-[5px]">
-          <StarIcon className="w-3 h-3 text-rose-500" />
+          <StarIcon className="w-[13px] h-3 text-rose-500 flex-shrink-0" />
           <span className="text-sm text-neutral-700">4,7</span>
         </div>
         <span className="text-neutral-700 text-opacity-75 md:block hidden">
@@ -31,12 +31,12 @@ const Header = () => {
         </div>
         <div className="md:flex hidden space-x-2 items-center">
           <ArrowUpTrayIcon className="w-5 h-5 text-black" />
-          <Link className="text-black font-semibold" href="/">
+          <Link className="text-black font-semibold underline" href="/">
             Partager
           </Link>
         </div>
       </div>
-      <div className="my-8 md:block hidden">
+      <div className="my-8 md:block hidden rounded-md overflow-hidden">
         <div className="flex gap-2">
           <div>
             <Image

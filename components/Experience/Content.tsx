@@ -99,11 +99,12 @@ const Content = () => {
                 </div>
               </div>
               <div className="flex items-center justify-between">
-                <p className="text-[#303133] font-semibold">
-                  Jusqu’à 12 ans
-                  <br />
-                  <span className="font-normal text-xs">Enfants</span>
-                </p>
+                <div>
+                  <p className="text-[#303133] font-semibold -mb-1">
+                    Jusqu’à 12 ans
+                  </p>
+                  <span className="text-xs text-[#303133]">Enfants</span>
+                </div>
                 <div className="flex items-center gap-[30px]">
                   <button className="w-6 h-6 bg-[#3031330F] text-[#303133] inline-flex items-center justify-center rounded-md">
                     -
@@ -121,7 +122,7 @@ const Content = () => {
               <span>
                 <BoltIcon className="w-3 h-6 text-black" />
               </span>
-              <p className="mt-2 text-sm text-[#303133]">
+              <p className="mt-2 text-sm text-[#303133] leading-[16px]">
                 Réservation en ligne
               </p>
             </div>
@@ -129,7 +130,7 @@ const Content = () => {
               <span>
                 <BoltIcon className="w-3 h-6 text-black" />
               </span>
-              <p className="mt-2 text-sm text-[#303133]">
+              <p className="mt-2 text-sm text-[#303133] leading-[16px]">
                 Réservation en ligne
               </p>
             </div>
@@ -137,7 +138,7 @@ const Content = () => {
               <span>
                 <BoltIcon className="w-3 h-6 text-black" />
               </span>
-              <p className="mt-2 text-sm text-[#303133]">
+              <p className="mt-2 text-sm text-[#303133] leading-[16px]">
                 Réservation en ligne
               </p>
             </div>
